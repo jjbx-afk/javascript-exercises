@@ -1,6 +1,8 @@
-const reverseString = function() {
-
+function reverseString(strRev) {
+    let splitString = strRev.split("");
+    let reverseArray = splitString.reverse();
+    let joinArray = reverseArray.join("");
+    return joinArray;
 };
 
-// Do not edit below this line
-module.exports = reverseString;
+module.exports = reverseString;      
